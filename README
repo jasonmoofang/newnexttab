@@ -1,0 +1,14 @@
+This is the "Next Tab" Firefox extension
+- https://addons.mozilla.org/en-US/firefox/addon/next-tab/ -
+with some of my own minor improvements on top.
+
+It basically lets you open a page in a tab next to the current tab
+either via a context menu (right click > open the link next to current tab)
+or via the file menu item to launch a new empty tab next to the current one.
+The latter can be quickly done via keyboard with Alt+F > X.
+
+Firefox now opens related tabs together by default, but if you're like me
+and prefer to have the old (new tab at end) behavior by default, and manually
+control which tabs go next to the current tab, you can go to about:config
+and set browser.tabs.insertRelatedAfterCurrent to false, then install
+this extension.
