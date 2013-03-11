@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://nexttab/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://nexttab/locale/overlay.dtd">
+<overlay id="helloworld-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+
+<!-- YH: Added a menu item that opens a new blank tab next to the current tab, 
+  with the "new tab jumpstart" start page loaded -->
+<menupopup id="menu_FilePopup">
+  <menuitem id="newnexttab" label="New Next Tab" position="3" accesskey="x"
+    oncommand="gBrowser.selectedTab = nextTab.addTab('chrome://speeddial/content/speeddial.xul');"/>
+</menupopup>
+
+<popup id="contentAreaContextMenu">
+  <menuitem id="nexttab-open" label="&opennexttab.label;" accesskey="&opennexttab.key;" position="6" oncommand="nextTab.openNextToCurrentTab();"/>
+</popup>
+
+</overlay>

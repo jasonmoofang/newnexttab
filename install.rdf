@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+  
+    <em:id>newnexttab@yuenhoe.co.cc</em:id>
+    <em:name>New Next Tab</em:name>
+    <em:version>0.2.2.1</em:version>
+    <em:description>Allow opening tab next to current tab</em:description>
+    <em:creator>Lim Yuen Hoe (http://yuenhoe.co.cc/)</em:creator> 
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>10.5.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+  </Description>
+
+</RDF>

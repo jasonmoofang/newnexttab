@@ -1,0 +1,8 @@
+content	nexttab	content/
+overlay	chrome://browser/content/browser.xul	chrome://nexttab/content/overlay.xul
+
+locale	nexttab	en-US	locale/en-US/
+locale	nexttab	hu-HU	locale/hu-HU/
+
+skin	nexttab	classic/1.0	skin/
+style	chrome://global/content/customizeToolbar.xul	chrome://nexttab/skin/overlay.css
